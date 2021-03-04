@@ -18,14 +18,14 @@
            
         </div>
         <ul>
-              <li><a class="active" href="#link">link</a></li>
-              <li><a href="#link">link</a></li>
+              <li><a class="active" href="http://localhost/tugas1/myweb.php">HOME</a></li>
+              <li><a href="http://localhost/tugas1/form/form.php">Hubungi kami</a></li>
               <li><a href="#link">linkt</a></li>
            </ul>
         <div class="row">
              <div class="left">
              <h3> side bar</h3>
-             
+             ddd
                 
              </div>
              <div class="right">
