@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    max-width: 1500px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.header {
+    background-image: url(../image/bgk.jpg);
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.left {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.right {
+    flex: 70%;
+    background-color: rgb(248, 246, 246);
+    padding: 20px;
+}
+
+.footer {
+    flex: 100%;
+    padding: 20px;
+    /* Some padding */
+    text-align: center;
+    /* Center text*/
+    background: black;
+    /* Grey background */
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
